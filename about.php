@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Staff - Dental Clinic</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+<a href="index.php">Home</a>
+<a href="appointment.php">Book Appointment</a>
+<a href="contact.php">Contact</a>
+<a href="about.php">About Us</a>
+<a href="staff.php">Staff</a>
+</nav>
+
+<div class="container">
+
+<h2> Our Dental Specialists</h2>
+
+<div class="doctor">
+    <h3>Dr. Asim Khan</h3>
+    <p>Specialist in Orthodontics. He is an experience in Braces & Teeth Alignment</p>
+    <p>Experience: 10+ years</p>
+    <p>Education: (BDS) RAK Medical & Dental College</p>
+    <img src="dentist.jpeg" width="200" height="200" >
+</div>
+
+<hr>
+
+<div class="doctor">
+    <h3>Dr. Sarah Malik</h3>
+    <p>General Dentist .She is experienced in Cleaning, Fillings, Root Canal</p>
+    <p>Experience: 8 years</p>
+    <p>Education: (BDS) Thumbay Medical University Ajman</p>
+    <img src="dentist4.jpeg" width="200" height="200" >
+</div>
+
+<hr>
+
+<div class="doctor">
+    <h3>Dr. John Micheal</h3>
+    <p>Cosmetic Dentistry. He is experinced in Whitening & Smile Design</p>
+    <p>Experience: 12 years</p>
+    <p>Education: (BDS) Manipal</p>
+    <img src="dentist3.jpeg" width="200" height="200" >
+</div>
+
+</div>
+
+</body>
+</html>

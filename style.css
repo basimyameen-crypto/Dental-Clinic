@@ -1,0 +1,121 @@
+
+
+/* ===== GLOBAL STYLE ===== */
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f9fc;
+    color: #333;
+}
+
+/* ===== NAVIGATION BAR ===== */
+nav {
+    background: linear-gradient(90deg, #0077b6, #0096c7);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: white;
+    color: #0077b6;
+}
+
+/* ===== PAGE CONTAINER ===== */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+}
+
+/* ===== HEADINGS ===== */
+h1, h2, h3 {
+    color: #023e8a;
+}
+
+/* ===== FORMS ===== */
+form {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    max-width: 400px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+}
+
+input:focus, textarea:focus {
+    border-color: #0077b6;
+}
+
+/* ===== BUTTONS ===== */
+button {
+    background: #0077b6;
+    color: white;
+    border: none;
+    padding: 12px;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #023e8a;
+}
+
+/* ===== DOCTOR / CARD STYLE ===== */
+.doctor {
+    background: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* ===== IMAGE STYLE ===== */
+img {
+    max-width: 100%;
+    border-radius: 12px;
+    margin-top: 15px;
+}
+
+/* ===== MAP STYLE ===== */
+iframe {
+    border-radius: 12px;
+    margin-top: 10px;
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form {
+        width: 100%;
+    }
+}

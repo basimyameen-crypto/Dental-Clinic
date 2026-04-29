@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Us</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+<a href="index.php">Home</a>
+<a href="appointment.php">Book Appointment</a>
+<a href="contact.php">Contact</a>
+<a href="about.php">About Us</a>
+<a href="staff.php">Staff</a>
+</nav>
+
+<div class="container">
+<h2>Contact Us</h2>
+
+<p><b>Address:</b> Dental Clinic, Ras Al Khaimah</p>
+<p><b>Phone:</b> +971 50 123 4567</p>
+<p><b>Email:</b> info@dentalclinic.com</p>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d213264.11895670785!2d55.80346451544965!3d25.7262979047832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef676ad264b24c1%3A0x10f6affe1a9e78a3!2sRas%20Al-Khaimah%20-%20Ras%20Al%20Khaimah!5e1!3m2!1sen!2sae!4v1776600200339!5m2!1sen!2sae" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+</div>
+</body>
+</html>
