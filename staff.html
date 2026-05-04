@@ -22,7 +22,7 @@
 
 
 <h2>List of Patients</h2>
-
+<!--
 <?php
 $sql = "SELECT * FROM patients";
 $result = $conn->query($sql);
@@ -35,11 +35,11 @@ if ($result->num_rows > 0) {
     echo "No patients found.";
 }
 ?>
-
+-->
 <hr>
 
 <h2>📅 Future Appointments</h2>
-
+<!--
 <?php
 $sql = "SELECT * FROM appointments WHERE date >= CURDATE()";
 $result = $conn->query($sql);
@@ -52,12 +52,12 @@ if ($result->num_rows > 0) {
     echo "No future appointments.";
 }
 ?>
-
+-->
 <hr>
 
 
 <h2>Past Appointments</h2>
-
+<!--
 <?php
 $sql = "SELECT * FROM appointments WHERE date < CURDATE()";
 $result = $conn->query($sql);
@@ -70,7 +70,7 @@ if ($result->num_rows > 0) {
     echo "No past appointments.";
 }
 ?>
-
+-->
 </div>
 </body>
 </html>
